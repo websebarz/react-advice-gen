@@ -28,7 +28,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 120px auto;
-  max-width: 90%;
+  max-width: 343px;
   max-height: fit-content;
   background: var(--clr-dark-grayish-blue);
   align-items: center;
