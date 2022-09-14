@@ -6,6 +6,12 @@ function Window() {
         “It is easy to sit up and take notice, what's difficult is getting up
         and taking action.”
       </p>
+      <div className="underline--el">
+        <hr className="line--el" />
+        <span className="under--el"></span>
+        <span className="under--el"></span>
+        <hr className="line--el" />
+      </div>
       <span className="dice--el">
         <span>
           <i>

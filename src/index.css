@@ -52,6 +52,8 @@ body {
   font-size: 24px;
   line-height: 33px;
   letter-spacing: -0.257143px;
+  padding: 1em;
+  margin: 0;
 }
 
 .dice--el {
@@ -62,7 +64,25 @@ body {
   width: 64px;
   height: 64px;
   left: 139px;
-  top: 283px;
+  top: 293px;
   border-radius: 100%;
   background: var(--clr-neon-green);
+}
+
+.underline--el {
+  display: flex;
+  gap: 0.5em;
+  margin-bottom: 64px;
+}
+
+.line--el {
+  width: 122px;
+  border: 1px solid var(--clr-grayish-blue);
+}
+
+.under--el {
+  width: 6px;
+  height: 16px;
+  background-color: var(--clr-light-cyan);
+  border-radius: 3px;
 }
