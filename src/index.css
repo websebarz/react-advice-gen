@@ -29,7 +29,7 @@ body {
   flex-direction: column;
   margin: 120px auto;
   max-width: 343px;
-  max-height: fit-content;
+  height: 315px;
   background: var(--clr-dark-grayish-blue);
   align-items: center;
   text-align: center;
@@ -64,7 +64,7 @@ body {
   width: 64px;
   height: 64px;
   left: 139px;
-  top: 293px;
+  top: 283px;
   border-radius: 100%;
   background: var(--clr-neon-green);
 }
