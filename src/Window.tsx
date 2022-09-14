@@ -33,7 +33,7 @@ function Window() {
 
   return (
     <div className="container--el">
-      <h2 className="advice-title--el">ADVICE #117</h2>
+      <h2 className="advice-title--el">ADVICE #{adviceEl.slip.id}</h2>
       <p className="advice--el">{adviceEl.slip.advice}</p>
       <div className="underline--el">
         <hr className="line--el" />
