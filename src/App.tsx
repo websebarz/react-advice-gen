@@ -1,7 +1,9 @@
+import Window from "./Window";
+
 function App() {
   return (
     <>
-      <h1>Advice Gen</h1>
+      <Window />
     </>
   );
 }

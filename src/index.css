@@ -11,6 +11,9 @@
 
   --clr-dark: hsl(218, 23%, 16%);
   --clr-grayish-blue: hsl(217, 19%, 38%);
+  --clr-dark-grayish-blue: hsl(217, 19%, 24%);
+  --clr-neon-green: hsl(150, 100%, 66%);
+  --clr-light-cyan: hsl(193, 38%, 86%);
 }
 
 body {
@@ -18,4 +21,48 @@ body {
   font-family: var(--ff-primary);
   background-color: var(--clr-dark);
   color: var(--clr-grayish-blue);
+}
+
+.container--el {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 120px auto;
+  max-width: 90%;
+  max-height: fit-content;
+  background: var(--clr-dark-grayish-blue);
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+}
+
+.advice-title--el {
+  margin-top: 40px;
+  color: var(--clr-neon-green);
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 3.45714px;
+}
+
+.advice--el {
+  color: var(--clr-light-cyan);
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: -0.257143px;
+}
+
+.dice--el {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  left: 139px;
+  top: 283px;
+  border-radius: 100%;
+  background: var(--clr-neon-green);
 }
