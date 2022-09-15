@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;800&display=swap");
 
 *,
 *::before,
@@ -29,7 +29,7 @@ body {
   flex-direction: column;
   margin: 120px auto;
   max-width: 343px;
-  height: 315px;
+  height: 347px;
   background: var(--clr-dark-grayish-blue);
   align-items: center;
   text-align: center;
@@ -40,7 +40,7 @@ body {
 .advice-title--el {
   margin-top: 40px;
   color: var(--clr-neon-green);
-  font-weight: 800;
+  font-weight: 400;
   font-size: 11px;
   line-height: 15px;
   letter-spacing: 3.45714px;
@@ -48,12 +48,12 @@ body {
 
 .advice--el {
   color: var(--clr-light-cyan);
-  font-weight: 800;
+  font-weight: 400;
   font-size: 24px;
   line-height: 33px;
   letter-spacing: -0.257143px;
   padding: 1em;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .dice--el {
@@ -64,12 +64,18 @@ body {
   width: 64px;
   height: 64px;
   left: 139px;
-  top: 283px;
+  top: 313px;
   border-radius: 100%;
   background: var(--clr-neon-green);
 }
 
+.dice--el:hover {
+  filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25));
+}
+
 .underline--el {
+  position: absolute;
+  top: 275px;
   display: flex;
   gap: 0.5em;
   margin-bottom: 64px;
