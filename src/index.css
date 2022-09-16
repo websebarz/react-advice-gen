@@ -92,3 +92,21 @@ body {
   background-color: var(--clr-light-cyan);
   border-radius: 3px;
 }
+
+@media only screen and (min-width: 1024px) {
+  .container--el {
+    max-width: 540px;
+  }
+
+  .dice--el {
+    left: 238px;
+  }
+
+  .underline--el {
+    top: 244px;
+  }
+
+  .line--el {
+    width: 196px;
+  }
+}
