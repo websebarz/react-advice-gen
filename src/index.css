@@ -18,6 +18,11 @@
 
 body {
   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-family: var(--ff-primary);
   background-color: var(--clr-dark);
   color: var(--clr-grayish-blue);
@@ -48,7 +53,7 @@ body {
 
 .advice--el {
   color: var(--clr-light-cyan);
-  font-weight: 400;
+  font-weight: 800;
   font-size: 24px;
   line-height: 33px;
   letter-spacing: -0.257143px;
@@ -95,7 +100,7 @@ body {
 
 @media only screen and (min-width: 1024px) {
   .container--el {
-    max-width: 540px;
+    min-width: 540px;
   }
 
   .dice--el {
