@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 120px auto;
-  max-width: 343px;
+  width: 343px;
   height: 347px;
   background: var(--clr-dark-grayish-blue);
   align-items: center;
